@@ -1,0 +1,25 @@
+Package: jlme
+Title: Regression Modelling with 'GLM.jl' and 'MixedModels.jl' in Julia
+Version: 0.0.0.9000
+Authors@R: 
+    person("June", "Choe", , "jchoe001@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0701-921X"))
+Description: Bindings to 'Julia' packages 'GLM.jl' and 'MixedModels.jl',
+    powered by 'JuliaConnectoR'. Fits (generalized) linear (mixed-effects)
+    regression models in 'Julia' using familiar model fitting syntax from
+    'R'.
+License: MIT + file LICENSE
+URL: https://yjunechoe.github.io/jlme/
+Depends: R (>= 4.1)
+Imports: generics, JuliaConnectoR, MASS, stats
+Suggests: broom, broom.mixed, JuliaFormulae, lme4, testthat (>= 3.0.0)
+Remotes: yjunechoe/JuliaFormulae
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+SystemRequirements: Julia (>= 1.8)
+NeedsCompilation: no
+Packaged: 2024-05-31 14:07:30 UTC; jchoe
+Author: June Choe [aut, cre] (<https://orcid.org/0000-0002-0701-921X>)
+Maintainer: June Choe <jchoe001@gmail.com>
